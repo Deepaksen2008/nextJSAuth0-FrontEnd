@@ -25,7 +25,7 @@ export const GET = withApiAuthRequired(async function shows(req) {
 export const sendTokenToBackend = async token => {
   console.log('Sending token to backend:', token);
   try {
-    const response = await fetch('http://localhost:5000/auth/callback', {
+    const response = await fetch('https://next-js-auth0-backend.vercel.app/auth/callback', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
