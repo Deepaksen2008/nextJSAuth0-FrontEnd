@@ -9,7 +9,7 @@ const login = () => {
   cy.get('input[name=email], input[name=username]').focus().clear().type(EMAIL);
   cy.get('input[name=password]').focus().clear().type(PASSWORD, { log: false });
   cy.get('button[type=submit][name=action]:visible, button[type=submit][name=submit]').click();
-  cy.url().should('equal', 'http://localhost:3000/');
+  cy.url().should('equal', 'https://next-js-auth0-front-g4up1vkwi-deepaksen2008s-projects.vercel.app/');
   cy.visit('/');
 };
 

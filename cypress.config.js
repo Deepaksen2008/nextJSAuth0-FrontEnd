@@ -15,6 +15,6 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {},
     experimentalSessionAndOrigin: true,
-    baseUrl: 'http://localhost:3000'
+    baseUrl: 'https://next-js-auth0-front-g4up1vkwi-deepaksen2008s-projects.vercel.app'
   }
 });

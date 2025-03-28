@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+
 # nextJSAuth0-FrontEnd
+
 =======
+
 # Auth0 Next.js SDK Sample Application
 
 This sample demonstrates the integration of [Auth0 Next.js SDK](https://github.com/auth0/nextjs-auth0) into a Next.js application created using [create-next-app](https://nextjs.org/docs/api-reference/create-next-app). The sample is a companion to the [Auth0 Next.js SDK Quickstart](https://auth0.com/docs/quickstart/webapp/nextjs).
@@ -39,14 +42,14 @@ To do this, first copy `.env.local.example` into a new file in the same folder c
 # A long secret value used to encrypt the session cookie
 AUTH0_SECRET='LONG_RANDOM_VALUE'
 # The base url of your application
-AUTH0_BASE_URL='http://localhost:3000'
+AUTH0_BASE_URL='https://next-js-auth0-front-g4up1vkwi-deepaksen2008s-projects.vercel.app'
 # The url of your Auth0 tenant domain
 AUTH0_ISSUER_BASE_URL='https://YOUR_AUTH0_DOMAIN.auth0.com'
 # Your Auth0 application's Client ID
 AUTH0_CLIENT_ID='YOUR_AUTH0_CLIENT_ID'
 # Your Auth0 application's Client Secret
 AUTH0_CLIENT_SECRET='YOUR_AUTH0_CLIENT_SECRET'
-# Your Auth0 API's Identifier 
+# Your Auth0 API's Identifier
 # OMIT if you do not want to use the API part of the sample
 AUTH0_AUDIENCE='YOUR_AUTH0_API_IDENTIFIER'
 # The permissions your app is asking for
@@ -94,12 +97,12 @@ npm run test:integration
 
 Auth0 helps you to:
 
-* Add authentication with [multiple sources](https://auth0.com/docs/identityproviders), either social identity providers such as **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce** (amongst others), or enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS, or any SAML Identity Provider**.
-* Add authentication through more traditional **[username/password databases](https://auth0.com/docs/connections/database/custom-db)**.
-* Add support for **[linking different user accounts](https://auth0.com/docs/users/user-account-linking)** with the same user.
-* Support for generating signed [JSON Web Tokens](https://auth0.com/docs/tokens/json-web-tokens) to call your APIs and **flow the user identity** securely.
-* Analytics of how, when, and where users are logging in.
-* Pull data from other sources and add it to the user profile through [JavaScript rules](https://auth0.com/docs/rules).
+- Add authentication with [multiple sources](https://auth0.com/docs/identityproviders), either social identity providers such as **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce** (amongst others), or enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS, or any SAML Identity Provider**.
+- Add authentication through more traditional **[username/password databases](https://auth0.com/docs/connections/database/custom-db)**.
+- Add support for **[linking different user accounts](https://auth0.com/docs/users/user-account-linking)** with the same user.
+- Support for generating signed [JSON Web Tokens](https://auth0.com/docs/tokens/json-web-tokens) to call your APIs and **flow the user identity** securely.
+- Analytics of how, when, and where users are logging in.
+- Pull data from other sources and add it to the user profile through [JavaScript rules](https://auth0.com/docs/rules).
 
 ## Create a Free Auth0 Account
 
@@ -117,4 +120,5 @@ If you have found a bug or if you have a feature request, please report them at 
 ## License
 
 This project is licensed under the MIT license. See the [LICENSE](./LICENSE) file for more info.
->>>>>>> 6705e65 (nextjs Auth0)
+
+> > > > > > > 6705e65 (nextjs Auth0)
